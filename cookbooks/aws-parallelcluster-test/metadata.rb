@@ -12,3 +12,7 @@ version '3.5.0'
 supports 'amazon', '>= 2.0'
 supports 'centos', '>= 7.0'
 supports 'ubuntu', '>= 18.04'
+
+# allows to execute recipes and use resources from packages below
+depends 'aws-parallelcluster', '~> 3.5.0'
+depends 'aws-parallelcluster-install', '~> 3.5.0'
