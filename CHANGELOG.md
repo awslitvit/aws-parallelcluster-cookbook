@@ -14,6 +14,7 @@ This file is used to list changes made in each version of the AWS ParallelCluste
 - Add health check manager and GPU health check, which can be activated through cluster configuration.
   Health check manager execution is triggered by a Slurm prolog script. GPU check verifies healthiness of a node by executing NVIDIA DCGM L2 diagnostic.
 - Build Slurm with support for LUA.
+- Add support for RHEL8.
 
 **CHANGES**
 - Upgrade EFA installer to `1.22.1`
